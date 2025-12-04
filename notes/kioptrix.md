@@ -24,3 +24,9 @@ Can be used for vulnerability scanning web servers
 ### Metasploit
 - auxiliary/scanner/smb/smb_version
 - 
+### SMBClient
+- ```smbclient -L \\\\(ip address)\\```
+- Then you can command similar to linux
+
+## Enumerating SSH
+- ```ssh (ip address) -oKexAlgorithms=+ diffie-hellman-group1-sha1 -c (copy the aes part)```
