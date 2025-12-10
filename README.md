@@ -10,3 +10,7 @@
 ## Exploitation
 - [Brute Force](https://github.com/Nater-aide/PJPT/blob/main/notes/BruteForce.md)
 - [Credential stuff and password Spraying](https://github.com/Nater-aide/PJPT/blob/main/notes/Credstuff.md)
+
+
+## Active Directory
+- [AD Components](https://github.com/Nater-aide/PJPT/blob/main/notes/ADComponents.md)
