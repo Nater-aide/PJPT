@@ -13,9 +13,15 @@ For PJPT set
 5. Add the **Active directory domain services**
 6. Click **restart the destination server automatically if required**
 7. Click Install
-
+8. **Promote this server to a domain controller**
+9. **Add new forest**
+10. Name it MARVEL.local
+11. Enter a password
 
 Domain Controller
  - Name: HYDRA-DC
  - Username: vboxuser
- - Password: Standardpassword
+ - Password: P@$$w0rd!
+
+Domain
+- MARVEL.local
