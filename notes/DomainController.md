@@ -18,6 +18,16 @@ For PJPT set
 10. Name it MARVEL.local
 11. Enter a password
 
+## Setup certificate services
+These are used to verify identities in domain controllers. Allows us to use LDAPs
+1. Click Manage
+2. Add Roles and Features
+3. Role based or feature based installation
+4. Next
+5. Add the **Active directory certificate services**
+6. Next all the way to install
+
+ 
 Domain Controller
  - Name: HYDRA-DC
  - Username: vboxuser
