@@ -15,4 +15,6 @@
 ## Active Directory
 - [AD Components](https://github.com/Nater-aide/PJPT/blob/main/notes/ADComponents.md)
 - [Domain Controller](https://github.com/Nater-aide/PJPT/blob/main/notes/DomainController.md)
-- 
+
+## AD Pentesting
+- [Initial access](https://github.com/Nater-aide/PJPT/blob/main/notes/InitialAccess.md)
