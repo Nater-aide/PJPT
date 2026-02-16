@@ -16,3 +16,9 @@ Look for the following
 
 <img width="1386" height="355" alt="image" src="https://github.com/user-attachments/assets/c86c0068-1d2a-402b-8a30-98d3c742c480" />
 <img width="1473" height="530" alt="image" src="https://github.com/user-attachments/assets/eb7f44d9-6359-4c54-b1e0-0e2403fa7be5" />
+
+
+## Mitigations
+- Disabled WPAD if not in use internally
+- Disabled IPv6 (this may cause issues within the environment)
+- Move Administrative users to the protected users group or marking them as Account is sensitive and cannot be delegated.
