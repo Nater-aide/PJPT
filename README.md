@@ -19,3 +19,4 @@
 ## AD Pentesting
 - [Initial access](https://github.com/Nater-aide/PJPT/blob/main/notes/InitialAccess.md)
 - [IPv6 attack](https://github.com/Nater-aide/PJPT/blob/main/notes/ipv6.md)
+- [Passback attack] (https://github.com/Nater-aide/PJPT/blob/main/notes/Passback.md)
