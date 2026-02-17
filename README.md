@@ -18,6 +18,10 @@
 - [Domain Controller](https://github.com/Nater-aide/PJPT/blob/main/notes/DomainController.md)
 
 ## AD Pentesting
+### Initial access
 - [Initial access](https://github.com/Nater-aide/PJPT/blob/main/notes/InitialAccess.md)
 - [IPv6 attack](https://github.com/Nater-aide/PJPT/blob/main/notes/ipv6.md)
-- [Passback attack] (https://github.com/Nater-aide/PJPT/blob/main/notes/Passback.md)
+- [Passback attack](https://github.com/Nater-aide/PJPT/blob/main/notes/Passback.md)
+
+### Post account compromise
+[ldapdomaindump](https://github.com/Nater-aide/PJPT/blob/main/notes/ldapdomaindump.md)
